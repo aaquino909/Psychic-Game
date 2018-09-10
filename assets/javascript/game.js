@@ -32,21 +32,21 @@
 
 
         
-        var html = "<h1>The Psychic Game</h1>" + 
-        "<p>Guess what letter I'm thinking of !</p>" +
+        var html = "<h1>The Psychic Game</h1> <br><br>" + 
+        "<p>Guess what letter I'm thinking of !</p><br>" +
         "<p>Total win: " + 
         win + 
-        "</p>" +
+        "</p><br>" +
         "<p>Total lose: " + 
         lose + 
-        "</p>" +
+        "</p><br>" +
         "<p>Guesses Left: " + 
         guessNumber + 
-        "</p>" +
+        "</p><br>" +
         "<p>Your Guesses so far: " +
         guessAmount +
         "</p>"
         ;
 
-        document.querySelector('#psychicGame').innerHTML = html;
+        document.querySelector('#psychicGame').innerHTML = html; //updates all html with the current variables
     }
